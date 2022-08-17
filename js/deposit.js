@@ -1,3 +1,8 @@
+function getInputFieldValueById(inputId) {
+  const inputField = document.getElementById(inputId);
+  return inputField;
+}
+
 /* 
 1.   add event listener to the deposit button
 2.   get deposit amount from the deposit input field
