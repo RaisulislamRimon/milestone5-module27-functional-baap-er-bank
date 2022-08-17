@@ -13,7 +13,7 @@
 
 7. calculate new balance and set it to the balance total element
 */
-
+/* 
 // step-1
 document.getElementById("btn-withdraw").addEventListener("click", function () {
   // step-2
@@ -42,3 +42,4 @@ document.getElementById("btn-withdraw").addEventListener("click", function () {
   const newBalanceTotal = previousBalanceTotal - newWithdrawAmount;
   balanceElement.innerText = newBalanceTotal;
 });
+ */
