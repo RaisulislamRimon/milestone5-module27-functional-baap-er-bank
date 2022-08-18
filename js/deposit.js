@@ -1,7 +1,12 @@
 function getInputFieldValueById(inputId) {
   const inputField = document.getElementById(inputId);
-  return inputField;
+  const inputFieldValueString = inputField.value;
+  return inputFieldValueString;
 }
+
+document.getElementById("btn-deposit").addEventListener("click", function () {
+  console.log("deposit btn clicked");
+});
 
 /* 
 1.   add event listener to the deposit button
